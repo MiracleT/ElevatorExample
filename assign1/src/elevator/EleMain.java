@@ -7,6 +7,7 @@ public class EleMain
 	{
 		Controller control = new Controller();
 		control.Open();
+		control.changeLevel();
 		control.Open();
 	}
 
