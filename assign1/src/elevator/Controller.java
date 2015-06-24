@@ -18,4 +18,9 @@ public class Controller
 			door.closeDoor();
 		}
 	}
+	
+	public void changeLevel()
+	{
+		
+	}
 }
