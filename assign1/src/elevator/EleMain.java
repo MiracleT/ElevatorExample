@@ -1,11 +1,13 @@
 package elevator;
 
-public class EleMain {
+public class EleMain
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//Elevator example to practice GIT tools
-		
+	public static void main(String[] args) 
+	{
+		Controller control = new Controller();
+		control.Open();
+		control.Open();
 	}
 
 }
