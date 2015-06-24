@@ -2,7 +2,8 @@ package elevator;
 
 public class Controller
 {
-	ElevatorButton button = new ElevatorButton();
+	ElevatorButton level1 = new ElevatorButton();
+	ElevatorButton level2 = new ElevatorButton();
 	ElevatorDoor door = new ElevatorDoor();
 	
 	public void Open()
@@ -21,6 +22,8 @@ public class Controller
 	
 	public void changeLevel()
 	{
+		System.out.println("change level");
 		
+			
 	}
 }
