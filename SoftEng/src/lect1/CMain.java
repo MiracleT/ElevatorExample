@@ -6,7 +6,7 @@ public class CMain {
 		// TODO Auto-generated method stub
 System.out.println("Hello");
 System.out.println("good afternoon");
-
+System.out.println("good night");
 	}
 
 }
