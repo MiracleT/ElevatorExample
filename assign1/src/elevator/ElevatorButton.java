@@ -1,10 +1,11 @@
 package elevator;
 
-public class ElevatorButton 
+public class ElevatorButton extends Button
 {
-	public boolean onPress()
-	{
-		System.out.println("This key is pressed");
-		return true;
+	Floor f=new Floor();
+	public void callElevator(int currentFloorNumber){
+		
+		f.gotoFloor(currentFloorNumber);
+				
 	}
 }

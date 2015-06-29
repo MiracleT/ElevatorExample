@@ -1,11 +1,12 @@
 package elevator;
 
 public class ElevatorDoor {
+//Floor fl=new Floor();
 
 	private Boolean isOpen = false;
 	
 	public void openDoor(){
-		System.out.println("open the door");
+		System.out.println("open the door ");
 	}
 	public void closeDoor(){
 		System.out.println("close the door");
